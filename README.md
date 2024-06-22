@@ -1,3 +1,5 @@
+# !!! THIS IS A EXPERIMENTAL PROJECT...
+
 # Extract Data from TXT to XLSX
 
 ## Table of Contents
@@ -6,12 +8,10 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Examples](#examples)
-- [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ## Project Description
-This Python project extracts data from a text file (`.txt`) and writes it to an Excel file (`.xlsx`). It's designed to be a simple, yet powerful tool for converting and organizing textual data into a more manageable and structured format.
+This Python project extracts data from a text file (`.txt`) and writes it to an Excel file (`.xlsx`). It's designed to be simple.
 
 ## Features
 - Extracts data from a structured text file.
@@ -73,28 +73,15 @@ python extract_data.py input.txt output.xlsx
 ```
 
 ### Output (`output.xlsx`)
-| Name    | ID        | Age |
+| Name    | Number    | Age |
 |---------|-----------|-----|
 | jose    | 391299    | 19  |
 | pedro   | 12353     | 20  |
 | carlos  | 12959812  | 60  |
 | donuwu  | 0492      | 90  |
 
-## Contributing
-Contributions are welcome! Please follow these steps:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature-name`).
-3. Make your changes.
-4. Commit your changes (`git commit -m 'Add some feature'`).
-5. Push to the branch (`git push origin feature/your-feature-name`).
-6. Open a pull request.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-- [openpyxl](https://openpyxl.readthedocs.io/) - A Python library to read/write Excel 2010 xlsx/xlsm files.
-- Your Name - Project creator and maintainer.
 ```
 
-Replace `yourusername` with your GitHub username and `Your Name` with your actual name. If you have a `LICENSE` file, make sure it is correctly referenced. Adjust the `Examples` section as needed based on your specific input/output format.# txt-to-xlsx-python
