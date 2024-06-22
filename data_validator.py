@@ -14,7 +14,9 @@ def is_phone_number(text):
 
 def is_email(text):
     try:
-        validate_email(text)
+        #validate_email(text)
+        if "@" not in text:
+            return False
         return True
     except EmailNotValidError:
         return False
